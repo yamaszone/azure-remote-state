@@ -1,4 +1,4 @@
-variable "name" { 
+variable "name" {
   description = "Name of resource"
 }
 
@@ -14,9 +14,8 @@ variable "account_tier" {
   default = "standard"
 }
 
-
 variable "storage_account_replication_type" {
-  default     = "LRS"
+  default = "LRS"
 }
 
 variable "prefix" {
@@ -30,4 +29,3 @@ variable "environment" {
 variable "storage_account_name" {
   default = "cdsremotestate"
 }
-

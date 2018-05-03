@@ -7,4 +7,3 @@ resource "azurerm_storage_container" "terraform_remote_state_container" {
     prevent_destroy = true
   }
 }
-
