@@ -14,8 +14,3 @@ output "storage_account_id" {
   value = "${azurerm_storage_account.remote_state_sa.id}"
 }
 
-output "environment" {
-  value = "${azurerm_resource_group.remote_state_rg.environment}"
-}
-
-
