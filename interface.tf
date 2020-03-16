@@ -1,7 +1,3 @@
-variable "name" {
-  description = "Name of resource"
-}
-
 variable "location" {
   default = "canadaeast"
 }
